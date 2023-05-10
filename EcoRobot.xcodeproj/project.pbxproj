@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9E749FE2A041EBF00488038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E749FD2A041EBF00488038 /* AppDelegate.swift */; };
+		A9E74A002A041EBF00488038 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E749FF2A041EBF00488038 /* SceneDelegate.swift */; };
+		A9E74A022A041EBF00488038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E74A012A041EBF00488038 /* ViewController.swift */; };
+		A9E74A052A041EBF00488038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E74A032A041EBF00488038 /* Main.storyboard */; };
+		A9E74A072A041EC000488038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E74A062A041EC000488038 /* Assets.xcassets */; };
+		A9E74A0A2A041EC000488038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E74A082A041EC000488038 /* LaunchScreen.storyboard */; };
+		A9E7EA782A0430BF00DA8D2E /* DozaSticlaPlastic.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A9E7EA772A0430BF00DA8D2E /* DozaSticlaPlastic.mlmodel */; };
+		A9F8273E2A06B76300730267 /* Recognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F8273D2A06B76300730267 /* Recognition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9E749FA2A041EBF00488038 /* EcoRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E749FD2A041EBF00488038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9E749FF2A041EBF00488038 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A9E74A012A041EBF00488038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9E74A042A041EBF00488038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9E74A062A041EC000488038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9E74A092A041EC000488038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9E74A0B2A041EC000488038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E7EA772A0430BF00DA8D2E /* DozaSticlaPlastic.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DozaSticlaPlastic.mlmodel; sourceTree = "<group>"; };
+		A9F8273D2A06B76300730267 /* Recognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recognition.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9E749F72A041EBF00488038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9E749F12A041EBF00488038 = {
+			isa = PBXGroup;
+			children = (
+				A9E749FC2A041EBF00488038 /* EcoRobot */,
+				A9E749FB2A041EBF00488038 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9E749FB2A041EBF00488038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9E749FA2A041EBF00488038 /* EcoRobot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E749FC2A041EBF00488038 /* EcoRobot */ = {
+			isa = PBXGroup;
+			children = (
+				A9E749FD2A041EBF00488038 /* AppDelegate.swift */,
+				A9E749FF2A041EBF00488038 /* SceneDelegate.swift */,
+				A9E74A012A041EBF00488038 /* ViewController.swift */,
+				A9E74A032A041EBF00488038 /* Main.storyboard */,
+				A9E74A062A041EC000488038 /* Assets.xcassets */,
+				A9E74A082A041EC000488038 /* LaunchScreen.storyboard */,
+				A9E74A0B2A041EC000488038 /* Info.plist */,
+				A9E7EA772A0430BF00DA8D2E /* DozaSticlaPlastic.mlmodel */,
+				A9F8273D2A06B76300730267 /* Recognition.swift */,
+			);
+			path = EcoRobot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9E749F92A041EBF00488038 /* EcoRobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E74A0E2A041EC000488038 /* Build configuration list for PBXNativeTarget "EcoRobot" */;
+			buildPhases = (
+				A9E749F62A041EBF00488038 /* Sources */,
+				A9E749F72A041EBF00488038 /* Frameworks */,
+				A9E749F82A041EBF00488038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcoRobot;
+			productName = EcoRobot;
+			productReference = A9E749FA2A041EBF00488038 /* EcoRobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9E749F22A041EBF00488038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A9E749F92A041EBF00488038 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = A9E749F52A041EBF00488038 /* Build configuration list for PBXProject "EcoRobot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9E749F12A041EBF00488038;
+			productRefGroup = A9E749FB2A041EBF00488038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9E749F92A041EBF00488038 /* EcoRobot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9E749F82A041EBF00488038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E74A0A2A041EC000488038 /* LaunchScreen.storyboard in Resources */,
+				A9E74A072A041EC000488038 /* Assets.xcassets in Resources */,
+				A9E74A052A041EBF00488038 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9E749F62A041EBF00488038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E74A022A041EBF00488038 /* ViewController.swift in Sources */,
+				A9E749FE2A041EBF00488038 /* AppDelegate.swift in Sources */,
+				A9F8273E2A06B76300730267 /* Recognition.swift in Sources */,
+				A9E74A002A041EBF00488038 /* SceneDelegate.swift in Sources */,
+				A9E7EA782A0430BF00DA8D2E /* DozaSticlaPlastic.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9E74A032A041EBF00488038 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E74A042A041EBF00488038 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9E74A082A041EC000488038 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E74A092A041EC000488038 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9E74A0C2A041EC000488038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9E74A0D2A041EC000488038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9E74A0F2A041EC000488038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65826GJT77;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoRobot/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need accest to the camera in order to detect the junk";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mateicrainiceanu.EcoRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9E74A102A041EC000488038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65826GJT77;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoRobot/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need accest to the camera in order to detect the junk";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mateicrainiceanu.EcoRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9E749F52A041EBF00488038 /* Build configuration list for PBXProject "EcoRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E74A0C2A041EC000488038 /* Debug */,
+				A9E74A0D2A041EC000488038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E74A0E2A041EC000488038 /* Build configuration list for PBXNativeTarget "EcoRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E74A0F2A041EC000488038 /* Debug */,
+				A9E74A102A041EC000488038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9E749F22A041EBF00488038 /* Project object */;
+}
