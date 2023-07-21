@@ -54,7 +54,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
 
         guard let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else { return }
         
-        guard let model = try? VNCoreMLModel(for: DozaSticlaPlastic(configuration: MLModelConfiguration()).model) else {fatalError("Could not import model...")}
+        guard let model = try? VNCoreMLModel(for: DozaSticlaPlastic3(configuration: MLModelConfiguration()).model) else {fatalError("Could not import model...")}
 
         let request = VNCoreMLRequest(model: model, completionHandler: {(req, err) in
 
