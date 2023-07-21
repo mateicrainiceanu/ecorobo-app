@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A92802372A0BF7E1008C7527 /* ObjectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92802362A0BF7E1008C7527 /* ObjectHandler.swift */; };
+		A97F2A142A1E351F0001CE6C /* DozaSticlaPlastic.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A97F2A132A1E351F0001CE6C /* DozaSticlaPlastic.mlmodel */; };
 		A9E749FE2A041EBF00488038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E749FD2A041EBF00488038 /* AppDelegate.swift */; };
 		A9E74A002A041EBF00488038 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E749FF2A041EBF00488038 /* SceneDelegate.swift */; };
 		A9E74A022A041EBF00488038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E74A012A041EBF00488038 /* ViewController.swift */; };
 		A9E74A052A041EBF00488038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E74A032A041EBF00488038 /* Main.storyboard */; };
 		A9E74A072A041EC000488038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E74A062A041EC000488038 /* Assets.xcassets */; };
 		A9E74A0A2A041EC000488038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E74A082A041EC000488038 /* LaunchScreen.storyboard */; };
-		A9E7EA782A0430BF00DA8D2E /* DozaSticlaPlastic.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A9E7EA772A0430BF00DA8D2E /* DozaSticlaPlastic.mlmodel */; };
 		A9F8273E2A06B76300730267 /* Recognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F8273D2A06B76300730267 /* Recognition.swift */; };
+		FF7BAAF14A6589746B8F829D /* Pods_EcoRobot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82FA0A32C66E7555E8601D97 /* Pods_EcoRobot.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82FA0A32C66E7555E8601D97 /* Pods_EcoRobot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoRobot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D72ECDA6711EAF081085FB /* Pods-EcoRobot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoRobot.debug.xcconfig"; path = "Target Support Files/Pods-EcoRobot/Pods-EcoRobot.debug.xcconfig"; sourceTree = "<group>"; };
+		A92802362A0BF7E1008C7527 /* ObjectHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectHandler.swift; sourceTree = "<group>"; };
+		A97F2A132A1E351F0001CE6C /* DozaSticlaPlastic.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DozaSticlaPlastic.mlmodel; path = "../../../Model_doza-plastic-sticla_OD/DozaSticlaPlastic.mlmodel"; sourceTree = "<group>"; };
 		A9E749FA2A041EBF00488038 /* EcoRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E749FD2A041EBF00488038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9E749FF2A041EBF00488038 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +32,8 @@
 		A9E74A062A041EC000488038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9E74A092A041EC000488038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9E74A0B2A041EC000488038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9E7EA772A0430BF00DA8D2E /* DozaSticlaPlastic.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DozaSticlaPlastic.mlmodel; sourceTree = "<group>"; };
 		A9F8273D2A06B76300730267 /* Recognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recognition.swift; sourceTree = "<group>"; };
+		F5E74ECC110DA2D4EC515071 /* Pods-EcoRobot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoRobot.release.xcconfig"; path = "Target Support Files/Pods-EcoRobot/Pods-EcoRobot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7BAAF14A6589746B8F829D /* Pods_EcoRobot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FACAAC06E6C88FB67025C53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82FA0A32C66E7555E8601D97 /* Pods_EcoRobot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1E6D461D109E6078E8F3112 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95D72ECDA6711EAF081085FB /* Pods-EcoRobot.debug.xcconfig */,
+				F5E74ECC110DA2D4EC515071 /* Pods-EcoRobot.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A9E749F12A041EBF00488038 = {
 			isa = PBXGroup;
 			children = (
 				A9E749FC2A041EBF00488038 /* EcoRobot */,
 				A9E749FB2A041EBF00488038 /* Products */,
+				A1E6D461D109E6078E8F3112 /* Pods */,
+				3FACAAC06E6C88FB67025C53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,8 +93,9 @@
 				A9E74A062A041EC000488038 /* Assets.xcassets */,
 				A9E74A082A041EC000488038 /* LaunchScreen.storyboard */,
 				A9E74A0B2A041EC000488038 /* Info.plist */,
-				A9E7EA772A0430BF00DA8D2E /* DozaSticlaPlastic.mlmodel */,
+				A97F2A132A1E351F0001CE6C /* DozaSticlaPlastic.mlmodel */,
 				A9F8273D2A06B76300730267 /* Recognition.swift */,
+				A92802362A0BF7E1008C7527 /* ObjectHandler.swift */,
 			);
 			path = EcoRobot;
 			sourceTree = "<group>";
@@ -80,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9E74A0E2A041EC000488038 /* Build configuration list for PBXNativeTarget "EcoRobot" */;
 			buildPhases = (
+				A9F87962921CA8F3F16CB88E /* [CP] Check Pods Manifest.lock */,
 				A9E749F62A041EBF00488038 /* Sources */,
 				A9E749F72A041EBF00488038 /* Frameworks */,
 				A9E749F82A041EBF00488038 /* Resources */,
+				689045A1506A4A88F23DFF92 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -139,6 +168,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		689045A1506A4A88F23DFF92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcoRobot/Pods-EcoRobot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcoRobot/Pods-EcoRobot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EcoRobot/Pods-EcoRobot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9F87962921CA8F3F16CB88E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoRobot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9E749F62A041EBF00488038 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -148,7 +219,8 @@
 				A9E749FE2A041EBF00488038 /* AppDelegate.swift in Sources */,
 				A9F8273E2A06B76300730267 /* Recognition.swift in Sources */,
 				A9E74A002A041EBF00488038 /* SceneDelegate.swift in Sources */,
-				A9E7EA782A0430BF00DA8D2E /* DozaSticlaPlastic.mlmodel in Sources */,
+				A97F2A142A1E351F0001CE6C /* DozaSticlaPlastic.mlmodel in Sources */,
+				A92802372A0BF7E1008C7527 /* ObjectHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +362,7 @@
 		};
 		A9E74A0F2A041EC000488038 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D72ECDA6711EAF081085FB /* Pods-EcoRobot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,6 +392,7 @@
 		};
 		A9E74A102A041EC000488038 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E74ECC110DA2D4EC515071 /* Pods-EcoRobot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

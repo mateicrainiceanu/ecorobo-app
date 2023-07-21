@@ -1,0 +1,16 @@
+PODS:
+  - SwiftHTTP (3.0.1)
+
+DEPENDENCIES:
+  - SwiftHTTP (~> 3.0)
+
+SPEC REPOS:
+  trunk:
+    - SwiftHTTP
+
+SPEC CHECKSUMS:
+  SwiftHTTP: e94f1aa8cde58637dcc0100f6349de31a3337fde
+
+PODFILE CHECKSUM: 84f6e172bdd1eac00b539145ce547857ed33dae2
+
+COCOAPODS: 1.11.3

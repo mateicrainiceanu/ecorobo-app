@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  EcoRobot
+//  EcoRobo
 //
 //  Created by Matei Crăiniceanu on 04.05.2023.
 //
@@ -11,6 +11,7 @@ import Vision
 class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
     
     var requestNumber = 1
+    let objHandl = ObjectHandler()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,7 +52,6 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
         DispatchQueue.global(qos: .background).async {
 
-
         guard let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else { return }
         
         guard let model = try? VNCoreMLModel(for: DozaSticlaPlastic(configuration: MLModelConfiguration()).model) else {fatalError("Could not import model...")}
@@ -67,6 +67,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
                     if let observation = recognizedObject.labels.first {
                         let rObj = Recognition(box: box, name: observation.identifier, confidence: observation.confidence)
                         rObj.getValues()
+                        self.objHandl.handle(rObj)
                     }
 
                 }
