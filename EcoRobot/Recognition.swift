@@ -18,6 +18,6 @@ struct Recognition {
     }
     
     func getValues() {
-        print("\(Date()) | REC: \(name) | conf: \(confidencePrecent) | {width: \(box.width); height: \(box.height); midX: \(box.minX)}")
+        print("\(Date()) | REC: \(name) | conf: \(confidencePrecent)")
     }
 }

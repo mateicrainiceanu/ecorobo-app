@@ -18,6 +18,7 @@ struct ObjectHandler {
             get {
                 if let prevRecognitionName = self.prevRecognizedObject {
                     if prevRecognitionName != obj.name {
+                        prevRecognizedObject = obj.name
                         return true
                     } else {
                         return false

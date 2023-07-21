@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9147FD92A6A7575000631AD /* DozaSticlaPlastic.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A9147FD82A6A7575000631AD /* DozaSticlaPlastic.mlmodel */; };
 		A92802372A0BF7E1008C7527 /* ObjectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92802362A0BF7E1008C7527 /* ObjectHandler.swift */; };
 		A97F2A142A1E351F0001CE6C /* DozaSticlaPlastic_Rezeva.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A97F2A132A1E351F0001CE6C /* DozaSticlaPlastic_Rezeva.mlmodel */; };
-		A9AE22E42A6A45DE0046A26F /* DozaSticlaPlastic.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A9AE22E32A6A45DE0046A26F /* DozaSticlaPlastic.mlmodel */; };
+		A9AE22E42A6A45DE0046A26F /* DozaSticlaPlastic_v3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A9AE22E32A6A45DE0046A26F /* DozaSticlaPlastic_v3.mlmodel */; };
 		A9E749FE2A041EBF00488038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E749FD2A041EBF00488038 /* AppDelegate.swift */; };
 		A9E74A002A041EBF00488038 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E749FF2A041EBF00488038 /* SceneDelegate.swift */; };
 		A9E74A022A041EBF00488038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E74A012A041EBF00488038 /* ViewController.swift */; };
@@ -23,9 +24,10 @@
 /* Begin PBXFileReference section */
 		82FA0A32C66E7555E8601D97 /* Pods_EcoRobot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoRobot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D72ECDA6711EAF081085FB /* Pods-EcoRobot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoRobot.debug.xcconfig"; path = "Target Support Files/Pods-EcoRobot/Pods-EcoRobot.debug.xcconfig"; sourceTree = "<group>"; };
+		A9147FD82A6A7575000631AD /* DozaSticlaPlastic.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DozaSticlaPlastic.mlmodel; sourceTree = "<group>"; };
 		A92802362A0BF7E1008C7527 /* ObjectHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectHandler.swift; sourceTree = "<group>"; };
 		A97F2A132A1E351F0001CE6C /* DozaSticlaPlastic_Rezeva.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DozaSticlaPlastic_Rezeva.mlmodel; path = "../../../Model_doza-plastic-sticla_OD/DozaSticlaPlastic_Rezeva.mlmodel"; sourceTree = "<group>"; };
-		A9AE22E32A6A45DE0046A26F /* DozaSticlaPlastic.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DozaSticlaPlastic.mlmodel; sourceTree = "<group>"; };
+		A9AE22E32A6A45DE0046A26F /* DozaSticlaPlastic_v3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DozaSticlaPlastic_v3.mlmodel; sourceTree = "<group>"; };
 		A9E749FA2A041EBF00488038 /* EcoRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E749FD2A041EBF00488038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9E749FF2A041EBF00488038 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,7 +98,8 @@
 				A9E74A082A041EC000488038 /* LaunchScreen.storyboard */,
 				A9E74A0B2A041EC000488038 /* Info.plist */,
 				A97F2A132A1E351F0001CE6C /* DozaSticlaPlastic_Rezeva.mlmodel */,
-				A9AE22E32A6A45DE0046A26F /* DozaSticlaPlastic.mlmodel */,
+				A9AE22E32A6A45DE0046A26F /* DozaSticlaPlastic_v3.mlmodel */,
+				A9147FD82A6A7575000631AD /* DozaSticlaPlastic.mlmodel */,
 				A9F8273D2A06B76300730267 /* Recognition.swift */,
 				A92802362A0BF7E1008C7527 /* ObjectHandler.swift */,
 			);
@@ -218,11 +221,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9147FD92A6A7575000631AD /* DozaSticlaPlastic.mlmodel in Sources */,
 				A9E74A022A041EBF00488038 /* ViewController.swift in Sources */,
 				A9E749FE2A041EBF00488038 /* AppDelegate.swift in Sources */,
 				A9F8273E2A06B76300730267 /* Recognition.swift in Sources */,
 				A9E74A002A041EBF00488038 /* SceneDelegate.swift in Sources */,
-				A9AE22E42A6A45DE0046A26F /* DozaSticlaPlastic.mlmodel in Sources */,
+				A9AE22E42A6A45DE0046A26F /* DozaSticlaPlastic_v3.mlmodel in Sources */,
 				A97F2A142A1E351F0001CE6C /* DozaSticlaPlastic_Rezeva.mlmodel in Sources */,
 				A92802372A0BF7E1008C7527 /* ObjectHandler.swift in Sources */,
 			);
