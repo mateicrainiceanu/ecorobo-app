@@ -11,7 +11,7 @@ import Vision
 class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
     
     var requestNumber = 1
-    let objHandl = ObjectHandler()
+    var objHandl = ObjectHandler()
     
     override func viewDidLoad() {
         super.viewDidLoad()
